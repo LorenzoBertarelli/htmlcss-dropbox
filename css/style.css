@@ -3,6 +3,7 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
 }
 
 /* LAYOUT */
@@ -25,16 +26,49 @@
     border-width: 2px;
     border-color: red;
     border-style: solid;
+    justify-content: space-between;
+    align-items: center;
 }
 
 .sfondo-header {
     background-color: rgb(170, 225, 250);
 }
 
-.jumbotron {
-    height: 50px;
+.jumbotron-titolo {
+    height: 100%;
     width: 100%;
     border-width: 2px;
     border-color: red;
     border-style: solid;
+}
+
+h1 {
+    margin: 50px 0;
+    font-size: 4rem;
+}
+
+.jumbotron-testo-immagine {
+    height: 100%;
+    width: 100%;
+    border-width: 2px;
+    border-color: red;
+    border-style: solid;
+}
+
+.testo-header {
+    height: 100%;
+    border-width: 2px;
+    border-color: red;
+    border-style: solid;
+    width: 35%;
+}
+
+.immagine-header {
+    height: 100%;
+    border-width: 2px;
+    border-color: red;
+    border-style: solid;
+    width: 65%;
+    object-fit: cover;
+    
 }
