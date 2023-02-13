@@ -98,7 +98,7 @@ h1 {
 
 .testo-header {
     width: 35%;
-    line-height: 1.5rem;
+    line-height: 2rem;
     font-size: 1.1rem;
     max-height: 50%;
 }
@@ -170,7 +170,7 @@ h2 {
     padding: 15px;
 }
 
-h3 {
+.blocchi-piani .h3 {
     margin: 20px 0;
 }
 
@@ -205,7 +205,7 @@ h3 {
 }
 
 hr {
-    width: 20%;
+    width: 30%;
 }
 
 h5 {
@@ -220,4 +220,108 @@ h5 {
 
 .fa-check {
     color: rgb(37, 113, 255);
+}
+
+.piano-enterprise {
+    height: 100%;
+    width: 100%;
+    border-width: 1px;
+    border-color: rgb(194, 194, 194);
+    border-style: solid;
+    padding: 15px;
+    text-align: center;
+    margin-top: 50px;
+}
+
+.contatto-enterprise {
+    border-width: 1px;
+    border-color: rgb(194, 194, 194);
+    border-style: solid;
+    padding: 20px;
+}
+
+.titolo-enterprise {
+    justify-content: space-between;
+}
+
+.blocco-enterprice-left {
+    width: 75%;
+}
+
+.bottone-uffico-vendite {
+    height: 100%;
+    width: 25%
+}
+
+.enterprise {
+    padding-top: 6px;
+}
+
+.info-ufficio-vendite {
+    padding-bottom: 40px;
+    margin-top: 15px;
+}
+
+.descrizione-enterprise {
+    line-height: 1.5rem;
+}
+
+/* CONTATTO PARTENR */
+
+.box-partner {
+    margin-top: 150px;
+    margin-bottom: 150px;
+    border-width: 1px;
+    border-color: rgb(194, 194, 194);
+    border-style: solid;
+}
+
+.box-partner-left {
+    width: 62%;
+}
+
+.box-partner-right {
+    width: 38%;
+    padding: 20px;
+}
+
+.immagine-partner {
+    width: 100%;
+    background-size: cover;
+}
+
+.titolo-partner {
+    line-height: 2rem;
+}
+
+.testo-partner {
+    line-height: 1.4rem;
+}
+
+.bottone-partner {
+    margin-top: 20px;
+    padding: 12px;
+    text-align: center;
+    border-color: black;
+    border-width: 1px;
+    background-color: white;
+}
+
+
+.card {
+    display: flex;
+    flex-wrap: wrap;
+    height: 100%;
+    width: calc(100% / 3);
+    border-width: 1px;
+    border-color: rgb(194, 194, 194);
+    border-style: solid;
+    padding: 15px;
+}
+
+.box-card {
+    display: flex;
+    flex-wrap: wrap;
+    height: 100%;
+    width: 100%;
 }
