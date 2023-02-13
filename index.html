@@ -12,26 +12,31 @@
     <!-- LINK FONT -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
 
+    <!-- LINK SIMBOLI -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css" integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
 </head>
 <body>
     <!-- HEADER -->
     <header>
         <section>
             <div class="box-header flex">
-                <div class="header-left flex">
+                <div class="flex">
                     <div class="logo"><img src="img/logo-small.png" alt=""></div>
-                    <div class="tasti-header">
-                        <a href="">Perchè Dropbox</a>
-                        <a href="">Funzioni</a>
-                        <a href="">Piani e prezzi</a>
+                    <div class="link-header flex">
+                        <p class="header-right"><a href="">Perchè Dropbox</a></p>
+                        <p class="header-right"><a href="">Funzioni</a></p>
+                        <p class="header-right"><a href="">Piani e prezzi</a></p>
                     </div>
                 </div>
-                <div class="header-right">
-                    <div class="tasti-header">
-                        <a href="">Supporto</a>
-                        <a href="">Contatta l'ufficio vendite</a>
-                        <a href="">Accedi</a>
-                        <button class="bottone-inizia">Inizia</button>
+                <div class="flex">
+                    <div class="flex ">
+                        <div class="flex link-header">
+                            <p class="header-left"><a href="">Supporto</a></p>
+                            <p class="header-left"><a href="">Contatta l'ufficio vendite</a></p>
+                            <p class="header-left"><a href="">Accedi</a></p>
+                        </div>
+                        <button class="bottone bottone-inizia"><a href="">Inizia</a></button>
                     </div>
                 </div>
             </div>
@@ -39,29 +44,122 @@
 
         <section>
             <div class="sfondo-header">
-                <div class="container">
+                <div class="container-header">
                     <div class="jumbotron-titolo">
                         <h1>Tutto ciò che ti serve per il tuo lavoro, in un unico posto</h1>
                     </div>
-                    <div>
-                        <div class="jumbotron-testo-immagine flex">
-                            <div class="testo-header">
-                                <p> Finalmente tutti i tuoi strumenti, contenuti e collaboratori sono accessibili dallo stesso posto. Dropbox Business è più di uno spazio di archiviazione sicuro: è un modo intelligente e integrato per ottimizare il flusso di lavoro esistente.<p>
-                            </div>
-                            <div class="immagine-header">
-                                <img src="img/jumbo.png" alt="">
-                            </div>
+                    <div class="flex">
+                        <div class="testo-header">
+                            <p>Finalmente tutti i tuoi strumenti, contenuti e collaboratori sono accessibili dallo stesso posto. Dropbox Business è più di uno spazio di archiviazione sicuro: è un modo intelligente e integrato per ottimizare il flusso di lavoro esistente.<p>
+                            <button class="bottone bottone-provagratuita"><a href="">Inizia la tua prova gratuita</a></button> 
+                            <p>Annulla in qualsiasi momento</p> 
+                            <i class="fa-solid fa-arrow-down"></i> 
+                        </div>
+                        <div class="immagine-header">
+                            <img class="immagine-jumbo" src="img/jumbo.png" alt="">
                         </div>
                     </div>                  
                 </div>
             </div>
         </section>
-
     </header>
     <!-- END HEADER -->
 
     <!-- MAIN -->
-    <main></main>
+    <main>
+
+      <!-- PIANO BUSINESS -->
+        <section>
+            <div class="container-main">
+                <div class="titolo-business">
+                    <h2>Trova il piano business che fa per te</h2>
+                </div>  
+                <div class="checkbox-fatturazione ">
+                    <ul class="flex fatturazione">
+                        <li><i class="fa-solid fa-circle-dot"></i> Fatturazione mensile &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp  </li>
+                        <li><i class="fa-regular fa-circle"></i> Fatturazione annuale</li>
+                    </ul>
+                    
+                </div> 
+                    
+                <div class="flex">
+                    <div class="tipo-piano"><i class="fa-solid fa-user"></i> Singolo</div>                    
+                    <div class="tipo-piano centro-piani">Team</div>
+                    <div class="tipo-piano">Azienda</div>
+                </div>
+     <!-- PIANO 1 -->
+                <div class="flex">
+                    <div class="blocchi-piani">
+                        <h3>Professional</h3>
+                        <p class="prezzo"><strong>€ 12.00</strong></p>
+                        <p class="interessato">/mese</p>
+                        <ul class="lista-proprietà">
+                            <li><i class="fa-solid fa-user"></i> 1 utente</li>
+                            <li><i class="fa-solid fa-folder"></i> 5 TB di spazio di archiviazione sicuro</li>
+                            <li><i class="fa-solid fa-share-nodes"></i> Funzioni di produttività premium e condivisione file semplice e sicura</li>
+                        </ul>
+                        <button class="bottone bottone-prova30"><a href="">Prova gratis per 30 giorni</a></button>
+                        <p class="oppure-acquista-ora">oppure <a class="acquista-ora" href="">acquista ora</a></p> 
+                        <hr>
+                        <h5>Punti Salienti del piano</h5>
+                        <div>
+                            <ul class="lista-vantaggi">
+                                <li><i class="fa-solid fa-check"></i> Invia file fino a 100 GB con Dropbox Tranfert</li>
+                                <li><i class="fa-solid fa-check"></i> Cartelle offline su dispositivi mobili</li>
+                            </ul>
+                        </div>
+                    </div> 
+     <!-- PIANO 2 -->
+                    <div class="blocchi-piani centro-piani">
+                        <h3>Advanced</h3>
+                        <p class="prezzo"><strong>€ 12.00</strong></p>
+                        <p class="interessato">/mese</p>
+                        <ul class="lista-proprietà">
+                            <li><i class="fa-solid fa-user"></i> 1 utente</li>
+                            <li><i class="fa-solid fa-folder"></i> 5 TB di spazio di archiviazione sicuro</li>
+                            <li><i class="fa-solid fa-share-nodes"></i> Funzioni di produttività premium e condivisione file semplice e sicura</li>
+                        </ul>
+                        <button class="bottone bottone-prova30"><a href="">Prova gratis per 30 giorni</a></button>
+                        <p class="oppure-acquista-ora">oppure <a class="acquista-ora" href="">acquista ora</a></p> 
+                        <hr>
+                        <h5>Punti Salienti del piano</h5>
+                        <div>
+                            <ul class="lista-vantaggi">
+                                <li><i class="fa-solid fa-check"></i> Invia file fino a 100 GB con Dropbox Tranfert</li>
+                                <li><i class="fa-solid fa-check"></i> Cartelle offline su dispositivi mobili</li>
+                                <li><i class="fa-solid fa-check"></i> Cartelle offline su dispositivi mobili</li>
+                                <li><i class="fa-solid fa-check"></i> Cartelle offline su dispositivi mobili</li>
+                                <li><i class="fa-solid fa-check"></i> Cartelle offline su dispositivi mobili</li>
+                            </ul>
+                        </div>
+                    </div>
+     <!-- PIANO 3 -->
+                    <div class="blocchi-piani">
+                        <h3>Enterprise</h3>
+                        <p class="prezzo"><strong>€ 12.00</strong></p>
+                        <p class="interessato">/mese</p>
+                        <ul class="lista-proprietà">
+                            <li><i class="fa-solid fa-user"></i> 1 utente</li>
+                            <li><i class="fa-solid fa-folder"></i> 5 TB di spazio di archiviazione sicuro</li>
+                            <li><i class="fa-solid fa-share-nodes"></i> Funzioni di produttività premium e condivisione file semplice e sicura</li>
+                        </ul>
+                        <button class="bottone bottone-prova30"><a href="">Prova gratis per 30 giorni</a></button>
+                        <p class="oppure-acquista-ora">oppure <a class="acquista-ora" href="">acquista ora</a></p> 
+                        <hr>
+                        <h5>Punti Salienti del piano</h5>
+                        <div>
+                            <ul class="lista-vantaggi">
+                                <li><i class="fa-solid fa-check"></i> Invia file fino a 100 GB con Dropbox Tranfert</li>
+                                <li><i class="fa-solid fa-check"></i> Cartelle offline su dispositivi mobili</li>
+                                <li><i class="fa-solid fa-check"></i> Cartelle offline su dispositivi mobili</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div> 
+            </div>
+        </section>
+     <!-- END PIANO BUSINESS -->
+    </main>
     <!-- END MAIN -->
 
     <!-- FOOTER -->

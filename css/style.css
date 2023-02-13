@@ -8,9 +8,15 @@
 
 /* LAYOUT */
 
-.container {
-    width: 80%;
+.container-header {
+    width: 90%;
     max-width: 1100px;
+    margin: 0 auto;
+}
+
+.container-main {
+    width: 70%;
+    max-width: 850px;
     margin: 0 auto;
 }
 
@@ -18,27 +24,69 @@
     display: flex;
 }
 
+.bottone {
+    padding: 10px;
+    text-align: center;
+    text-decoration: none;
+    border-color: transparent;
+    background-color: rgb(37, 113, 255);
+}
+
+.bottone a {
+    text-decoration: none;
+    color: white;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
 /* HEADER */
 
 .box-header {
-    height: 50px;
+    height: 70px;
     width: 100%;
-    border-width: 2px;
-    border-color: red;
-    border-style: solid;
     justify-content: space-between;
     align-items: center;
 }
 
 .sfondo-header {
-    background-color: rgb(170, 225, 250);
+    background-color: rgb(194, 218, 253);
+    height: 100%;
+    margin-bottom: 180px;
+}
+
+.bottone-inizia {
+    text-align: center;
+    line-height: 0px;
+    height: 10px;
+    padding: 15px;
+    margin-top: 6px;
+    align-items: flex-end;
+}
+
+.link-header {
+    text-align: center;
+    padding: 15px;
+}
+
+.header-left {
+    margin: 0 20px;
+}
+
+.header-right {
+    margin: 0 20px;
+}
+
+.logo {
+    margin: 10px 0;
 }
 
 .jumbotron-titolo {
     height: 100%;
     width: 100%;
-    border-width: 2px;
-    border-color: red;
+    border-color: rgba(255, 0, 0, 0);
     border-style: solid;
 }
 
@@ -47,28 +95,129 @@ h1 {
     font-size: 4rem;
 }
 
-.jumbotron-testo-immagine {
-    height: 100%;
-    width: 100%;
-    border-width: 2px;
-    border-color: red;
-    border-style: solid;
-}
 
 .testo-header {
-    height: 100%;
-    border-width: 2px;
-    border-color: red;
-    border-style: solid;
     width: 35%;
+    line-height: 1.5rem;
+    font-size: 1.1rem;
+    max-height: 50%;
 }
 
 .immagine-header {
+    width: 100%;
+}
+
+.immagine-jumbo {
+    height: 120%;
+    width: 120%;
+}
+
+.bottone-provagratuita {
+    margin: 50px 0;
+}
+
+.fa-arrow-down {
+    margin-top: 50px;
+    font-size: 40px;
+}
+
+/* MAIN */
+
+/* PIANO BUSINESS */
+
+.titolo-business {
     height: 100%;
-    border-width: 2px;
-    border-color: red;
+}
+
+h2 {
+    font-size: 2rem;
+}
+
+.checkbox-fatturazione {
+    margin-top: 50px ;
+    margin-bottom: 50px;
+}
+
+.fatturazione {
+    list-style-type: none;
+}
+
+.fa-circle-dot{
+    color: rgb(37, 113, 255);
+}
+
+.tipo-piano {
+    height: 100%;
+    width: calc(100% / 3);
+    border: 1px;
+    border-color: rgb(194, 194, 194);
     border-style: solid;
-    width: 65%;
-    object-fit: cover;
-    
+    text-align: center;
+    padding: 5px;
+}
+
+.centro-piani {
+    margin: 0 40px;
+}
+
+.blocchi-piani {
+    min-height: 950px;
+    height: 100%;
+    width: calc(100% / 3);
+    border-width: 1px;
+    border-color: rgb(194, 194, 194);
+    border-style: solid;
+    padding: 15px;
+}
+
+h3 {
+    margin: 20px 0;
+}
+
+.prezzo {
+    margin: 10px 0;
+}
+
+.interessato {
+    color: rgb(131, 131, 131);
+    margin: 0 0 50px 0;
+}
+
+.lista-proprietà li {
+    list-style-type: none;
+    margin: 0 0 15px 0;
+    line-height: 1.5rem;
+}
+
+.bottone-prova30 {
+    margin-top: 35px;
+    margin-bottom: 30px;
+    width: 100%
+}
+
+.oppure-acquista-ora {
+    margin-bottom: 35px;
+}
+
+.acquista-ora {
+    color: blue;
+    text-decoration: underline;
+}
+
+hr {
+    width: 20%;
+}
+
+h5 {
+    margin: 45px 0 25px 0;
+}
+
+.lista-vantaggi li {
+    list-style-type: none;
+    margin: 0 0 15px 0;
+    line-height: 1.5rem;
+}
+
+.fa-check {
+    color: rgb(37, 113, 255);
 }
