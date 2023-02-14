@@ -11,7 +11,7 @@ body {
 
 /* LAYOUT */
 
-.container-header {
+.container-header .container-footer{
     width: 90%;
     max-width: 1100px;
     margin: 0 auto;
@@ -67,7 +67,7 @@ a {
     height: 10px;
     padding: 15px;
     margin-top: 6px;
-    align-items: flex-end;
+    margin-right: 10px;
 }
 
 .link-header {
@@ -86,7 +86,7 @@ a {
 }
 
 .logo {
-    margin: 10px 0;
+    margin: 10px;
 }
 
 .jumbotron-titolo {
@@ -100,7 +100,6 @@ h1 {
     margin: 50px 0;
     font-size: 4rem;
 }
-
 
 .testo-header {
     width: 35%;
@@ -313,6 +312,8 @@ h5 {
     background-color: rgb(255, 255, 255);
 }
 
+/* OPERAZIONI CON BUSINESS */
+
 .card {
     display: flex;
     flex-wrap: wrap;
@@ -341,3 +342,186 @@ h5 {
 .testo-card {
     padding-top: 25px;
 }
+
+/* SPONSOR TEAM */
+
+.titolo-sponsor {
+    margin-top: 180px;
+}
+
+.link-clienti {
+    text-decoration: underline;
+    color: blue;
+    margin-bottom: 100px;
+}
+
+.blocco-sponsor {
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 1300px;
+    margin: 0 auto;
+}
+
+.box-sponsor {
+    display: flex;
+    flex-wrap: wrap;
+    height: 400px;
+    width: calc(100% / 3);
+    margin-top: 100px;
+}
+
+.box-sponsor2 {
+    height: 100vh;
+    width: calc(100% / 3);
+    margin-top: 100px;
+}
+
+.box-sponsor-immagini {
+    height: calc(100% / 2);
+    width: calc(100% / 2); 
+}
+
+.color-white {
+    filter: invert(100%);
+    width: 100%;
+    height: 100%;
+}
+
+.img-sponsor1 {
+    width: 100%;
+    height: 100%;
+    padding: 50px 50px;
+    background-color: rgba(162, 211, 155, 1);
+    border-width: 10px;
+    border-color: rgba(209, 233, 205, 1);
+    border-style: solid; 
+}
+
+.img-sponsor2 {
+    width: 100%;
+    height: 100%;
+    padding: 50px 50px;
+    background-color: rgba(97, 8, 43, 1);
+}
+
+.img-sponsor3 {
+    width: 100%;
+    height: 100%;
+    padding: 85px 50px;
+    background-color: rgba(0, 147, 206, 1);
+}
+
+.img-sponsor4 {
+    width: 100%;
+    height: 100%;
+    padding: 50px 50px;
+    background-color: rgba(255, 28, 28, 1);
+}
+
+.img-sponsor5 {
+    width: 100%;
+    height: 100%;
+    padding: 50px 50px;
+    background-color: rgba(213, 0, 31, 1);
+}
+
+.img-sponsor6 {
+    width: 100%;
+    height: 100%;
+    padding: 50px 50px;
+    background-color: rgba(180, 208, 231, 1);
+}
+
+.img-sponsor7 {
+    width: 100%;
+    height: 100%;
+    padding: 50px 50px;
+    background-color: rgba(13, 36, 129, 1);
+}
+
+.img-sponsor8 {
+    width: 100%;
+    height: 100%;
+    padding: 50px 50px;
+    background-color: rgba(255, 216, 48, 1);
+}
+
+.testo-sponsor-designit{
+    padding: 40px;
+    background-color: rgba(245, 245, 245, 1);
+}
+
+.immagine-designit {
+    width: 50%;
+    margin-bottom: 40px
+}
+
+.testo-designit {
+    margin: 30px 0;
+}
+
+.prova-azienda {
+    height: 100%;
+    background-color: rgba(180, 208, 231, 1);
+    max-width: 1300px;
+    margin: 0 auto;
+}
+
+.zona-bottone-sponsor {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 100px;
+    max-width: 1100px;
+}
+
+.titolo-sponsor-bottone {
+    color: rgba(97, 8, 43, 1);
+    
+}
+
+.bottone-prova-azienda {
+    text-align: center;
+    line-height: 0px;
+    height: 10px;
+    padding: 20px;
+    margin-top: 6px;
+    border-color: black;
+    border-width: 1px;
+    border-style: solid;
+    background-color: rgb(255, 255, 255);
+}
+
+/* DOMANDE FREQUENTI */
+
+.faq {
+    height: 100%;
+}
+
+.titolo-faq {
+    padding-top: 150px;
+    margin-bottom: 60px;
+}
+
+.special-hr {
+    width: 100%;
+    margin: 50px 0;
+}
+
+.faq-testo {
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+}
+
+.fa-angle-down {
+    padding-right: 40px;
+}
+
+/* FOOTER */
+
+.sfondo-footer {
+    background-color: black;
+    height: 500px;
+}
+
