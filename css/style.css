@@ -107,6 +107,23 @@ li {
     margin: 10px;
 }
 
+.hr-header {
+    width: 90%;
+    display: none;
+}
+
+.link-header1:hover .hr-header {
+	display: block; 
+}
+
+.link-header2:hover .hr-header {
+	display: block; 
+}
+
+.link-header3:hover .hr-header {
+	display: block; 
+}
+
 .jumbotron-titolo {
     height: 100%;
     width: 100%;
@@ -185,8 +202,6 @@ h2 {
 }
 
 .blocchi-piani {
-    min-height: 950px;
-    height: 100%;
     width: calc(100% / 3);
     border-width: 1px;
     border-color: rgb(194, 194, 194);
@@ -197,6 +212,7 @@ h2 {
 .blocchi-piani .h3 {
     margin: 20px 0;
 }
+
 
 .prezzo {
     margin: 10px 0;
@@ -214,16 +230,10 @@ h2 {
     padding-left: 1.5rem;
 }
 
-.lista-proprietà .features li {
-    position: relative;
-    margin-bottom: 1rem;
-    line-height: 1.5rem;
-    padding-left: 1.5rem;
-}
-
-.lista-proprietà .features i {
+.icona {
     position: absolute;
-    top: 5px;
+    left: 0;
+    top: 3px;
 }
 
 .bottone-prova30 {
@@ -247,12 +257,6 @@ hr {
 
 h5 {
     margin: 45px 0 25px 0;
-}
-
-.lista-vantaggi li {
-    list-style-type: none;
-    margin: 0 0 15px 0;
-    line-height: 1.5rem;
 }
 
 .fa-check {
@@ -541,12 +545,23 @@ h5 {
 
 .faq-testo {
     position: relative;
-    display: flex;
-    justify-content: space-between;
 }
 
 .fa-angle-down {
     padding-right: 40px;
+}
+
+.hover-faq {
+    display: flex;
+    justify-content: space-between;
+}
+.scritta-nascosta {
+    display: none;
+}
+
+.faq-testo:hover .scritta-nascosta {
+    display: block;
+    margin-top: 30px;
 }
 
 /* FOOTER */
