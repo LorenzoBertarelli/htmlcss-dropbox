@@ -81,16 +81,14 @@ li {
 
 .bottone-inizia {
     text-align: center;
-    line-height: 0px;
-    height: 10px;
-    padding: 15px;
-    margin-top: 6px;
+    vertical-align: middle;
+    height: 40px;
+    margin-top: 15px;
     margin-right: 10px;
 }
 
 .link-header {
     text-align: center;
-    padding: 15px;
     list-style-type: none;
     color: black;
 }
@@ -99,29 +97,20 @@ li {
     margin: 0 20px;
 }
 
-.header-right {
+.link-barra-header {
+    position: relative;
+    padding: 25px 0;
     margin: 0 20px;
 }
 
 .logo {
-    margin: 10px;
+    padding: 20px 0;
+    vertical-align: middle;
+    margin-left: 10px;
 }
 
-.hr-header {
-    width: 90%;
-    display: none;
-}
-
-.link-header1:hover .hr-header {
-	display: block; 
-}
-
-.link-header2:hover .hr-header {
-	display: block; 
-}
-
-.link-header3:hover .hr-header {
-	display: block; 
+.link-barra-header:hover {
+    border-bottom: solid black 1px;
 }
 
 .jumbotron-titolo {
@@ -406,6 +395,8 @@ h5 {
 }
 
 .box-sponsor2 {
+    overflow-y: scroll;
+    max-height: 400px;
     height: 100vh;
     width: calc(100% / 3);
     margin-top: 100px;
@@ -481,7 +472,8 @@ h5 {
     background-color: rgba(255, 216, 48, 1);
 }
 
-.testo-sponsor-designit{
+.testo-sponsor-designit {
+    height: 100%;
     padding: 40px;
     background-color: rgba(245, 245, 245, 1);
 }
